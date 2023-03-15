@@ -31,10 +31,6 @@ This README briefly highlights what we have accomplished in this project. If you
 **Our Dataset:** [Car Prices](TODO) \
 **Our Question:** How Much Does Features Affect Car Prices? 
 
-**Success:** Determined using Salary and Job Satisfaction \
-**Unconventional Individuals:** Outliers/anomalies found after clustering individuals based on the  technologies they use such as Web frameworks, Programming languages, Operating systems, etc.
-
-**Rationale:** We believe that this dataset as well as the question we pose is very relevant to the SCSE community at NTU. Being students of SCSE, once we graduate, we might become developers ourselves. By learning what kinds of developers tend to be more successful, we might be able to understand what it takes to be successful in the software development world. 
 
 ### 2. [Data Preparation and Cleaning](Part_1_Data_Prep_Cleaning.ipynb)
 In this section of the project, we prepped and cleaned the dataset to help us analyze our data better and also to help us use our data for the purposes of machine learning in the later sections. 
@@ -44,6 +40,7 @@ We performed the following:
 2. **Dropping `NaN`s**: All the `NaN` values in these `8` variables were dropped. 
 3. **Splitting Dataset in Two:** The `8` variables were then split in 2 DataFrames. One with `6` variables relating to conventionality and the other with `2` relating to success. 
 4. **Encoding Categorical Variables:** The categorical variables in both the DataFrames were encoded appropriately. 
+
 
 ### 3. [Exploratory Data Analysis](Part_2_EDA.ipynb)
 Then, we explored each of our two DataFrames further using Exploratory Data Analysis to answer questions like are there any patterns we are noticing? What do our success variables look like? What about the conventionality variables? Are there any underlying relationships between them? Can we make any inferences for our question at this stage? 
@@ -55,6 +52,7 @@ To achieve this we did the following:
 4. **Explored Variables Related to Conventionality:** Studied which options in the `6` variables were more frequently selected by respondents. 
 
 For further findings and explanations, please refer to the Jupyter Notebook on EDA.
+
 
 ### 4. [Dimensionality Reduction](Part_3_Dimension_Reduction.ipynb)
 Our DataFrame with `6` variables after encoding was converted to a DataFrame with `94` which is a very high dimensional data. 
@@ -74,20 +72,15 @@ Using MCA, the dimensions were reduced from `94` columns to just `42`!
 With these `42` columns, we then performed clustering. We chose the **Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBCAN)**. 
 
 The reasons for this are:
-1. This is a density based clustering algorithm which means it does not need the specification of the number of clusters. Essentially, this algorithm will not *force* any point into a cluster. Instead, points which do not really belong to any cluster are labeled "noise". This is clearly useful for us since we are doing anomaly detection (outlier/noise detection).
-2. Because this is density based, the shape of our data does not matter which is useful since we are working with high dimensional data and it is not possible for us to visualize and understand what kind of shapes our data might have. 
-3. With a non-hierarchical DBSCAN, there are certain hyperparameters that are difficult to tune. HDBSCAN removes the need to tune some of these parameters. 
-4. Because HDBSCAN is a hierarchical clustering algorithm even if we have a high dimensional data, we can use dendrograms to somewhat visualize the clusters and make inferences.
+1. 
 
 More details on HDBSCAN and its parameters are presented in the Jupyter Notebook on Clustering.
 
 In this section, we performed the following:
-1. Clustering with Random Parameters
-2. Hyperparameter Tuning with GridSearchCV using DBCV Score
-3. Readjusting Parameters (GridSearchCV does not work well in this case)
-4. Clustering with New Parameters
+1. 
 
 Our final clustering resulted in a total of `3` clusters and `6206` outliers (out of `19362` total points).
+
 
 ### 6. [Data Driven Insights and Conclusion](Part_5_Data_Driven_Insights.ipynb)
 Here, we re-combined our variables related to success and the clustered variables related to conventionality to see if there are any differences between outliers and non-outliers. We performed a comparative Exploratory Data Analysis on the outliers vs. non-outliers to see if we can infer anything from the similarities and differences. 
