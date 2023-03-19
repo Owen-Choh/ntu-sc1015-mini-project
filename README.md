@@ -21,7 +21,7 @@ The presentation video can be found [here](TODO)
 
 ## Brief process walkthrough (In order)
 
-1. [Data Preparation & Cleaning](<Data Preparation & Cleaning.ipynb>)
+1. [Data Preparation & Cleaning](<Data_Cleaning_And_Preparation.ipynb>)
     - Feature Selection
       - Selected columns: 'model', 'year', 'price', 'transmission', 'mileage', 'fuelType', 'engineSize'
     - Data cleaning
@@ -29,7 +29,7 @@ The presentation video can be found [here](TODO)
       - Converting "year" from int64 to object type
       - Splitting dataset into numerical and categorical variables
 
-2. [Exploratory Data Analysis](<Exploratory Data Analysis & Visualization.ipynb>)
+2. [Exploratory Data Analysis](<Exploratory_Data_Analysis.ipynb>)
     - Price distribution analysis
     - Numerical Variable analysis
     - Correlation analysis
