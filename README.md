@@ -9,13 +9,12 @@ This is the mini project for NTU-SC1015 (Introduction to Data Science and Artifi
 ## Problem definition
 
 - What are the features differences do cars or different prices have?
-- Are we able to predict car price through the car models alone?
-- Are we able to predict through comparing the features that the car has? (Engine Size, Fuel type, Year etc) If so, what are the most significant features? 
+- Are we able to predict car price through a subset of the car features alone? (Engine Size, Fuel type, Year etc) If so, what are the most significant features? 
 
 ## Dataset used
-The dataset used for this project is retrieved from [here](TODO)
+The dataset used for this project is retrieved from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv)
 
-For the cleaned dataset, please download it from [here](TODO)
+For the cleaned dataset, please download it from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv)
 
 ## Presentation
 The presentation video can be found [here](TODO)
@@ -23,28 +22,20 @@ The presentation video can be found [here](TODO)
 ## Brief process walkthrough (In order)
 
 1. [Data Preparation & Cleaning](<Data Preparation & Cleaning.ipynb>)
+    - Feature Selection
+      - Selected columns: 'model', 'year', 'price', 'transmission', 'mileage', 'fuelType', 'engineSize'
     - Data cleaning
-      - Salvage empty rows
-      - Removal of numbers & symbols (Excluding punctuation)
-      - Removal of stopwords
-      - Word stemming
-      - Drop empty rows after all cleaning steps (Dirty data)
-    - Data generation
-      - Word count & char count
-      - Stopwords count
-      - Sentiment
-      - Emotions
-      - Parts-of-speech (POS)
+      - Checking for missing values (Dirty data)
+      - Converting "year" from int64 to object type
+      - Splitting dataset into numerical and categorical variables
 
 2. [Exploratory Data Analysis](<Exploratory Data Analysis & Visualization.ipynb>)
-   - Class analysis
-   - Wordcount & charcount analysis
-   - Author analysis
-   - Corpus analysis
-   - N-gram analysis
-   - Sentiment & emotion analysis
-   - Parts-of-speech (POS) analysis
-   - Correlation analysis
+    - Price distribution analysis
+    - Numerical Variable analysis
+    - Correlation analysis
+    - Categorical Variable analysis
+    - Price with Numerical data analysis
+    - Price with Categorical data analysis
 
 3. [Model Training Attempt 1 & 2](<Model Training Attempt 1 & 2.ipynb>)
    - Attempt 1 (Decision Tree)
