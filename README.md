@@ -91,4 +91,4 @@ The presentation video can be found [here](TODO)
 
 ## References
 
-- https://data-flair.training/blogs/advanced-python-project-detecting-fake-news/comment-page-2/
+- TODO
