@@ -91,4 +91,5 @@ The presentation video can be found [here](TODO)
 
 ## References
 
-- TODO
+- https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+- 
