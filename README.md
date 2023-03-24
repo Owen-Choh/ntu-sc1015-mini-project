@@ -92,4 +92,6 @@ The presentation video can be found [here](TODO)
 ## References
 
 - https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-- 
+- https://scikit-learn.org/stable/modules/ensemble.html#forest
+- https://scikit-learn.org/stable/modules/model_evaluation.html
+- https://stephenallwright.com/cross_val_score-sklearn/#:~:text=Can%20I%20train%20my%20model%20using%20cross_val_score%3F
