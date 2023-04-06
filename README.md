@@ -1,3 +1,120 @@
+# SC1015 Mini-Project
+For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on the Ford Car Price [dataset](https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction) from Kaggle. 
+
+### Problem Definition
+- What is the profile of employees who quit IBM?
+- Top reasons for an employee's resignation
+- What can IBM do to better retain its workers?
+
+### Members (Z136_Team 4)
+1. Chong Choy Jun 
+2. Chew Di Heng
+3. Choh Lit Han Owen
+
+### Files Included
+1. ford.csv - original dataset
+2. cleaned_cardata.csv - cleaned dataset for analysis
+3. 
+4.
+5.
+6. SC1015 Project Slides.pdf - presentation slides for our project
+7. SC1015 Mini Project.ipynb 
+    - Cleaning and preparation
+    - Basic visualization
+    - Exploratory data analysis
+    - Machine learning: Random Forest, Logistic Regression, Neural Network  
+
+### Notebook Descriptions
+#### Data Cleaning And Preparation
+   a. Removing insignificant features: 'Tax', 'mpg'
+   
+   b. Check for missing values within the dataset
+
+   c. Converting 'year' column to a categorical variable
+   
+   d. Save cleaned dataset to new csv file
+
+#### Exploratory Data Analysis
+##### Part 1: Analysis of Numeric Variables
+   a. Used box plots, histograms, and violin plots in visualizing numeric variables
+   
+   b. Checked for number of outliers in numeric variables: 'mileage' 878, 'engineSize' 190 
+   
+   c. Used Heatmap and pairplot to visualise the correlation of all numeric variables and identify relationships and patterns within the data
+
+##### Part 2: Analysis of Categorical data
+   a. Used describe function to get an idea of how the categorical data looks like
+   
+   b. Used catplot to visualise the distribution of each categorical variable: 'model', 'year', 'transmission', 'fuelType'
+
+##### Part 3: Relationship with price for numeric data
+   a. Used jointplot to visualise each numeric variable against the price and identify patterns within the data
+   
+   b. Used boxplot to visualise each categorical variable against the price and identify relationships between the data
+
+
+#### Machine Learning
+*1. Random Forest*
+
+    a. Extract numeric variables that have high correlation with attrition as predictors and build a model using Random Forest Classifier
+       - A accuracy of 84.5% is achieved
+
+    b. Do hyperparemeter tuning using Random Search and plot one of the trees from Random Forest
+       - The accuracy is improved to 84.7%
+
+*2. Logistic Regression*
+
+    a. Get the 6 categorical variables and convert them into indicator variables using pandas.get_dummies
+    
+    b. Build a Logistic Regression model based on the predictors and print out the rank of importance of predictors using Recursive Feature Elimination (RFE)
+       - The accuracy on test set is 0.84
+       - 'OverTime' and 'Gender' contribute more to the predicton of attrition than the rest of the predictors
+    
+    c. Examine the classification report and analyze the model based on 'precision' and 'recall'
+       - Get the conclusion that the model is not effective even with high accuracy
+       - The highly imbalanced distribution of employees when categorizing by attrition is the major factor for the high accuracy
+    
+    d. Get the confusion matrix to back up our conclusion
+
+*3. Neural Network*
+
+    a. Import PyTorch library and select major numeric attributes
+        - The attributes include 'MonthlyIncome', 'DistanceFromHome' and 'YearsInCurrentRole'
+
+    b. Build a multilayer perceptron model for multi-label classification
+    
+    c. Train the model with CrossEntropyLoss as loss function and SGD as optimizer.
+        - The loss of the model reduced significantly after training through 3 epochs
+        - The accuracy on test cases is 85.7%
+
+
+### Conclusion
+
+*Machine Learning Comparisons*
+- Random Forest suggests that numeric variables with relatively high correlation with attrition are useful in predicting attrition
+- Logistic Regression is not recommended as a technique as most categorical variables are irrelevant in determining attrition
+- Neural Network is highly useful in effectively predicting attrition
+
+*Data Driven Insights*
+- Common profile of employees who quit: low salary, lives far away from office, low chance of career progression/lack of opportunities
+- Actions for IBM: increase salary incentives, enhance effective employee assessments, change up roles in senior management
+
+### What we have learnt from this project?
+- Using pandas.get_dummies to convert catrgorical variables into indicator variables
+- Logistic Regression model 
+- Justify the suitability of a model based on readings from classification report
+- Neural Network model
+
+### References
+1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+2. https://scikit-learn.org/stable/modules/ensemble.html#forest
+3. https://scikit-learn.org/stable/modules/model_evaluation.html
+4. https://stephenallwright.com/cross_val_score-sklearn/#:~:text=Can%20I%20train%20my%20model%20using%20cross_val_score%3F
+5. https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
+6. https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.SMOTENC.html
+7. https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+
+
 # Car Price Prediction
 
 ## About
