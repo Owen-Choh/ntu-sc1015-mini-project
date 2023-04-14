@@ -75,10 +75,13 @@ The presentation video can be found [here](TODO)
 #### Machine Learning
 *1. Random Forest*
 
-    a. One-Hot-Coded categorical variables and build a model using Random Forest Classifier
+    a. One-Hot-Encoded categorical variables and build a model using Random Forest Classifier
        - A R^2 Score of 0.719 is achieved
 
-    b. Did Synthetic Minority Oversampling Technique (SMOTE) to rebalance the car model distribution
+    b. Used the feature importance of the variables used by the model to retrain the model to see if the accuracy when using only a few variables
+       - A similar R^2 Score of 0.681 is achieved
+    
+    c. Did Synthetic Minority Oversampling Technique (SMOTE) to rebalance the car model distribution
        - The R^2 Score decreased to 0.485
 
 *2. Logistic Regression*
