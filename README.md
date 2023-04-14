@@ -2,9 +2,9 @@
 For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on the Ford Car Price [dataset](https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction) from Kaggle. 
 
 ### Problem Definition
-- What is the profile of employees who quit IBM?
-- Top reasons for an employee's resignation
-- What can IBM do to better retain its workers?
+- The goal of this data science project is to develop a predictive model that can accurately forecast Ford car sales based on historical
+sales data and relevant features. The model will be used to help Ford Motor Company optimize their sales strategies and make data-driven decision
+to improve sales performance 
 
 ### Members (Z136_Team 4)
 1. Chong Choy Jun 
@@ -22,7 +22,7 @@ For our mini project in the Introduction to Data Science and Artificial Intellig
     - Cleaning and preparation
     - Basic visualization
     - Exploratory data analysis
-    - Machine learning: Random Forest, Logistic Regression, Neural Network  
+    - Machine learning: Random Forest, Logistic Regression, Neural Network, kFold  
 
 ### Notebook Descriptions
 #### Data Cleaning And Preparation
