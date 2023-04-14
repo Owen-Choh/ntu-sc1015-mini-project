@@ -40,7 +40,7 @@ The presentation video can be found [here](TODO)
     - Cleaning and preparation
     - Basic visualization
     - Exploratory data analysis
-    - Machine learning: Random Forest, Logistic Regression, Neural Network, kFold   
+    - Machine learning: Random Forest, Logistic Regression, kFold   
 
 ### Notebook Descriptions
 #### Data Cleaning And Preparation
