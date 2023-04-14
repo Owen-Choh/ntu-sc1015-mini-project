@@ -78,7 +78,7 @@ The presentation video can be found [here](TODO)
        - A R^2 Score of 0.719 is achieved
 
     b. Did Synthetic Minority Oversampling Technique (SMOTE) to rebalance the car model distribution
-       - The R^2 Score is decreased to 0.485
+       - The R^2 Score decreased to 0.485
 
 *2. Logistic Regression*
 
