@@ -74,11 +74,11 @@ The presentation video can be found [here](TODO)
 #### Machine Learning
 *1. Random Forest*
 
-    a. Extract numeric variables that have high correlation with attrition as predictors and build a model using Random Forest Classifier
-       - A accuracy of 84.5% is achieved
+    a. One-Hot-Coded categorical variables and build a model using Random Forest Classifier
+       - A R^2 Score of 0.719 is achieved
 
-    b. Do hyperparemeter tuning using Random Search and plot one of the trees from Random Forest
-       - The accuracy is improved to 84.7%
+    b. Did Synthetic Minority Oversampling Technique (SMOTE) to rebalance the car model distribution
+       - The R^2 Score is decreased to 0.485
 
 *2. Logistic Regression*
 
