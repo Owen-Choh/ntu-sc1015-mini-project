@@ -34,8 +34,9 @@ The presentation video can be found [here](TODO)
 2. cleaned_cardata.csv - cleaned dataset for analysis
 3. Data_Cleaning_And_Preparation.ipynb
 4. Exploratory_Data_Analysis.ipynb
-5. 
-6. SC1015 Project Slides.pdf - presentation slides for our project
+5. Random Forest.ipynb
+6. K Fold.ipynb
+7. SC1015 Project Slides.pdf - presentation slides for our project
 7. SC1015 Mini Project.ipynb 
     - Cleaning and preparation
     - Basic visualization
