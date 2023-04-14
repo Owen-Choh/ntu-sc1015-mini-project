@@ -1,10 +1,28 @@
 # SC1015 Mini-Project
 For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on the Ford Car Price [dataset](https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction) from Kaggle. 
 
-### Problem Definition
-- The goal of this data science project is to develop a predictive model that can accurately forecast Ford car sales based on historical
+# Car Price Prediction
+
+## About
+
+This is the mini project for NTU-SC1015 (Introduction to Data Science and Artificial Intelligence).
+
+The goal of this data science project is to develop a predictive model that can accurately forecast Ford car sales based on historical
 sales data and relevant features. The model will be used to help Ford Motor Company optimize their sales strategies and make data-driven decision
 to improve sales performance 
+
+## Problem definition
+
+- What are the features differences do cars or different prices have?
+- Are we able to predict car price through a subset of the car features alone? (Engine Size, Fuel type, Year etc) If so, what are the most significant features? 
+
+## Dataset used
+The dataset used for this project is retrieved from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv)
+
+For the cleaned dataset, please download it from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv)
+
+## Presentation
+The presentation video can be found [here](TODO)
 
 ### Members (Z136_Team 4)
 1. Chong Choy Jun 
@@ -114,27 +132,6 @@ to improve sales performance
 6. https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.SMOTENC.html
 7. https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 
-
-# Car Price Prediction
-
-## About
-
-This is the mini project for NTU-SC1015 (Introduction to Data Science and Artificial Intelligence).
-
-(maybe write short intro sentence why we chose to do this problem)
-
-## Problem definition
-
-- What are the features differences do cars or different prices have?
-- Are we able to predict car price through a subset of the car features alone? (Engine Size, Fuel type, Year etc) If so, what are the most significant features? 
-
-## Dataset used
-The dataset used for this project is retrieved from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv)
-
-For the cleaned dataset, please download it from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv)
-
-## Presentation
-The presentation video can be found [here](TODO)
 
 ## Brief process walkthrough (In order)
 
