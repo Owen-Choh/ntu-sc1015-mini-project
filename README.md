@@ -32,15 +32,15 @@ The presentation video can be found [here](TODO)
 ### Files Included
 1. ford.csv - original dataset
 2. cleaned_cardata.csv - cleaned dataset for analysis
-3. 
-4.
-5.
+3. Data_Cleaning_And_Preparation.ipynb
+4. Exploratory_Data_Analysis.ipynb
+5. 
 6. SC1015 Project Slides.pdf - presentation slides for our project
 7. SC1015 Mini Project.ipynb 
     - Cleaning and preparation
     - Basic visualization
     - Exploratory data analysis
-    - Machine learning: Random Forest, Logistic Regression, Neural Network, kFold  
+    - Machine learning: Random Forest, Logistic Regression, Neural Network, kFold   
 
 ### Notebook Descriptions
 #### Data Cleaning And Preparation
