@@ -135,6 +135,7 @@ The presentation video can be found [here](TODO)
 5. https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
 6. https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.SMOTENC.html
 7. https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
+8. https://www.ibm.com/topics/random-forest
 
 
 ## Brief process walkthrough (In order)
