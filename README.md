@@ -125,10 +125,12 @@ The presentation video can be found [here](TODO)
 ### What we have learnt from this project?
 - Using scikit learn OneHotEncoder to convert catrgorical variables into a more useable form
 - Random Forrest Model
+- SMOTE Technique
 - Decision Tree Classifier Model
 - K-Fold technique
 - Gradient Boosting Regressor Model
 - Justify which variable is best to predict car price
+- Collaborating using GitHub
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
