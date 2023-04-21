@@ -26,9 +26,9 @@ For the cleaned dataset, please download it from [here](https://github.com/Owen-
 The presentation video can be found [here](TODO)
 
 ### Members (Z136_Team 4)
-1. Chong Choy Jun 
-2. Chew Di Heng
-3. Choh Lit Han Owen
+1. Chong Choy Jun - Decision Tree Classifier with K Fold, Gradient Boosting Regressor
+2. Chew Di Heng - Data Cleaning And Preparation, Exploratory Data Analysis
+3. Choh Lit Han Owen - Random Forest
 
 ### Files Included
 1. [ford.csv](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv) - original dataset
