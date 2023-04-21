@@ -83,28 +83,21 @@ The presentation video can be found [here](TODO)
 
 *2. Decision Tree Classifier with K Fold*
 
-    a. Get the 6 categorical variables and convert them into indicator variables using pandas.get_dummies
+    a. One-Hot-Encoded categorical variables and build a model using Decision Tree Classifier
+       - A R^2 Score of 0.636 is achieved
     
-    b. Build a Logistic Regression model based on the predictors and print out the rank of importance of predictors using Recursive Feature Elimination (RFE)
-       - The accuracy on test set is 0.84
-       - 'OverTime' and 'Gender' contribute more to the predicton of attrition than the rest of the predictors
-    
-    c. Examine the classification report and analyze the model based on 'precision' and 'recall'
-       - Get the conclusion that the model is not effective even with high accuracy
-       - The highly imbalanced distribution of employees when categorizing by attrition is the major factor for the high accuracy
-    
-    d. Get the confusion matrix to back up our conclusion
+    b. Used K Fold to split the dataset into 10 equally sized folds to reduce overfitting 
+       - A R^2 Score of 0.607 is achieved
+       - Reduction of overfitting hence a lower R^2 score
 
 *3. Gradient Boosting Regressor*
 
-    a. Import PyTorch library and select major numeric attributes
-        - The attributes include 'MonthlyIncome', 'DistanceFromHome' and 'YearsInCurrentRole'
-
-    b. Build a multilayer perceptron model for multi-label classification
+    a. One-Hot-Encoded categorical variables and split dataset into test and train
     
-    c. Train the model with CrossEntropyLoss as loss function and SGD as optimizer.
-        - The loss of the model reduced significantly after training through 3 epochs
-        - The accuracy on test cases is 85.7%
+    b. Build model using Gradient Boosting Regressor and fit dataset onto model
+        - A R^2 Score of 0.918 is achieved for train dataset
+        - A R^2 Score of 0.921 is achieved for test dataset
+
 
 
 ### Conclusion
