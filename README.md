@@ -130,7 +130,7 @@ The presentation video can be found [here](TODO)
 - K-Fold technique
 - Gradient Boosting Regressor Model
 - Justify which variable is best to predict car price
-- Collaborating using GitHub
+- Collaborating on GitHub
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
