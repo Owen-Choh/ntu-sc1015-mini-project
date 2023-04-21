@@ -127,7 +127,6 @@ The presentation video can be found [here](TODO)
 - Decision Tree Classifier Model
 - K-Fold technique
 - Gradient Boosting Regressor Model
-- Logistic Regression model 
 - Justify the suitability of a model based on readings from classification report
 
 ### References
