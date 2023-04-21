@@ -122,10 +122,13 @@ The presentation video can be found [here](TODO)
 - Actions for IBM: increase salary incentives, enhance effective employee assessments, change up roles in senior management
 
 ### What we have learnt from this project?
-- Using pandas.get_dummies to convert catrgorical variables into indicator variables
+- Using scikit learn OneHotEncoder to convert catrgorical variables into a more useable form
+- Random Forrest Model
+- Decision Tree Classifier Model
+- K-Fold technique
+- Gradient Boosting Regressor Model
 - Logistic Regression model 
 - Justify the suitability of a model based on readings from classification report
-- Neural Network model
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
@@ -137,82 +140,3 @@ The presentation video can be found [here](TODO)
 7. https://scikit-learn.org/stable/auto_examples/ensemble/plot_forest_importances.html
 8. https://www.ibm.com/topics/random-forest
 
-
-## Brief process walkthrough (In order)
-
-1. [Data Preparation & Cleaning](<Data_Cleaning_And_Preparation.ipynb>)
-    - Feature Selection
-      - Selected columns: 'model', 'year', 'price', 'transmission', 'mileage', 'fuelType', 'engineSize'
-    - Data cleaning
-      - Checking for missing values (Dirty data)
-      - Converting "year" from int64 to object type
-      - Splitting dataset into numerical and categorical variables
-
-2. [Exploratory Data Analysis](<Exploratory_Data_Analysis.ipynb>)
-    - Price distribution analysis
-    - Numerical Variable analysis
-    - Correlation analysis
-    - Categorical Variable analysis
-    - Price with Numerical data analysis
-    - Price with Categorical data analysis
-
-3. [Model Training Attempt 1 & 2](<Model Training Attempt 1 & 2.ipynb>)
-   - Attempt 1 (Decision Tree)
-     - Train with top 5 predictors
-     - Average accuracy: 0.73
-     - Model evaluation
-       - Plotting decision tree
-       - Confusion matrix
-   - Attempt 2 (Random Forest)
-     - Train with top 5 predictors
-     - Average accuracy: 0.75
-     - Model evaluation
-       - Confusion matrix
-       - Grid search hyper-parameter tuning
-
-5. [Model Training Attempt 3](<Model Training Attempt 3.ipynb>)
-   - TF-IDF analysis 
-   - Attempt 3 (Logistic Regression)
-     - Train with only title
-     - Average accuracy: 0.93
-     - Model evaluation
-       - Confusion Matrix
-       - Recall, precision, F1 score
-       - Receiver Operating Characteristic (ROC) Curve & Area Under Curve (AUC)
-       - Model weights
-
-## Conclusion
-- Surprisingly, polarity & emotions does not have a strong relation to fake news, therefore, not a good indicator of fake news.
-- Instead, indicators such as title wordcount, title adjective count, and text stopwords count are the best indicators to fake news. 
-- Based on attempt 3, detection of fake news using title is sufficient. However, for the best results, author & title are required.
-- Out of all the 3 models we implemented, decision tree performed the worst while logistic regression performed the best.
-- Based on findings, we can suggest that from a reader's perspective in identifying fake news, author is a quick & credible identifier, and the title could further support a reader's attempt in identifying fake news.
-
-## Key learning points
-- NLP & Text processing techniques
-  - Removal of stopwords
-  - Removal of noisy data (Numbers & symbols)
-  - Word stemming
-  - Sentiment & emotion analysis
-  - Parts-of-speech (POS)
-  - N-gram analysis (Bi-grams)
-- Logistic regression model training & evaluation
-- Converting unstructured text into text vectors using TF-IDF scoring metric
-- Using Python libraries with pre-trained models to predict and generate emotions & sentiment
-- Plotting correlation matrix with categorical data
-
-
-## Contributors
-
-1. @TODO (TODO) - Data Preparation & Cleaning, Exploratory Data Analysis, Model Training Attempt 3
-2. @TODO (TODO) - Model Training Attempt 1 & 2, Presentation Slides, Presenter
-3. @TODO (TODO) - Model Training Attempt 1 & 2, Presentation Slides, Presenter
-
-## References
-
-- https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-- https://scikit-learn.org/stable/modules/ensemble.html#forest
-- https://scikit-learn.org/stable/modules/model_evaluation.html
-- https://stephenallwright.com/cross_val_score-sklearn/#:~:text=Can%20I%20train%20my%20model%20using%20cross_val_score%3F
-- https://machinelearningmastery.com/smote-oversampling-for-imbalanced-classification/
-- https://imbalanced-learn.org/dev/references/generated/imblearn.over_sampling.SMOTENC.html
