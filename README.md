@@ -80,7 +80,7 @@ The presentation video can be found [here](TODO)
     c. Did Synthetic Minority Oversampling Technique (SMOTE) to rebalance the car model distribution
        - The R^2 Score decreased to 0.485
 
-*2. Logistic Regression*
+*2. Decision Tree Classifier with K Fold*
 
     a. Get the 6 categorical variables and convert them into indicator variables using pandas.get_dummies
     
@@ -94,7 +94,7 @@ The presentation video can be found [here](TODO)
     
     d. Get the confusion matrix to back up our conclusion
 
-*3. Neural Network*
+*3. Gradient Boosting Regressor*
 
     a. Import PyTorch library and select major numeric attributes
         - The attributes include 'MonthlyIncome', 'DistanceFromHome' and 'YearsInCurrentRole'
@@ -109,9 +109,9 @@ The presentation video can be found [here](TODO)
 ### Conclusion
 
 *Machine Learning Comparisons*
-- Random Forest suggests that numeric variables with relatively high correlation with attrition are useful in predicting attrition
-- Logistic Regression is not recommended as a technique as most categorical variables are irrelevant in determining attrition
-- Neural Network is highly useful in effectively predicting attrition
+- Random Forest suggests that the Mileage, Year and Model variables are most useful in predicting car price
+- Decision Tree Classifier with K Fold is not recommended as a technique as most categorical variables are irrelevant in determining attrition
+- Gradient Boosting Regressor is highly useful in effectively predicting attrition
 
 *Data Driven Insights*
 - Common profile of employees who quit: low salary, lives far away from office, low chance of career progression/lack of opportunities
@@ -123,7 +123,6 @@ The presentation video can be found [here](TODO)
 - Decision Tree Classifier Model
 - K-Fold technique
 - Gradient Boosting Regressor Model
-- Justify the suitability of a model based on readings from classification report
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
