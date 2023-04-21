@@ -30,12 +30,13 @@ The presentation video can be found [here](TODO)
 3. Choh Lit Han Owen
 
 ### Files Included
-1. ford.csv - original dataset
-2. cleaned_cardata.csv - cleaned dataset for analysis
-3. Data_Cleaning_And_Preparation.ipynb
-4. Exploratory_Data_Analysis.ipynb
-5. Random Forest.ipynb
-6. K Fold.ipynb
+1. [ford.csv](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv) - original dataset
+2. [cleaned_cardata.csv](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv) - cleaned dataset for analysis
+3. [Data_Cleaning_And_Preparation.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Data_Cleaning_And_Preparation.ipynb)
+4. [Exploratory_Data_Analysis.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Exploratory_Data_Analysis.ipynb)
+5. [Random Forest.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Random%20Forest.ipynb)
+6. [Decision Tree Classifier with K Fold.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Decision%20Tree%20Classifier%20with%20K%20Fold.ipynb)
+7. [Gradient Boosting Regressor.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Gradient%20Boosting%20Regressor.ipynb)
 7. SC1015 Project Slides.pdf - presentation slides for our project
 7. SC1015 Mini Project.ipynb 
     - Cleaning and preparation
