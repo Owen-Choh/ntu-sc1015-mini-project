@@ -13,8 +13,9 @@ to improve sales performance
 
 ## Problem definition
 
+- As COE in Singapore have been rising rapidly, how can one choose the most appropriate car model that will be value for money ?
 - What are the features differences do cars or different prices have?
-- Are we able to predict car price through a subset of the car features alone? (Engine Size, Fuel type, Year etc) If so, what are the most significant features? 
+- Are we able to predict car price through a subset of the car features alone? (Engine Size, Fuel type, Year etc) Does the engine size affects the price more than model? 
 
 ## Dataset used
 The dataset used for this project is retrieved from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv)
