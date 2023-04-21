@@ -112,10 +112,14 @@ The presentation video can be found [here](TODO)
 - Random Forest suggests that the Mileage, Year and Model variables are most useful in predicting car price
 - Decision Tree Classifier with K Fold is not recommended as a technique as most categorical variables are irrelevant in determining attrition
 - Gradient Boosting Regressor is highly useful in effectively predicting attrition
+- The random forest achieved an R-squared value of 0.719. The KFold achieved a lower R-squared value of 0.636. The gradient boosting regressor achieved the highest R-squared value of 0.918 which indicates the best performer among the three.
 
 *Data Driven Insights*
-- Common profile of employees who quit: low salary, lives far away from office, low chance of career progression/lack of opportunities
-- Actions for IBM: increase salary incentives, enhance effective employee assessments, change up roles in senior management
+- Models can provide information on the impact of the car features on car prices. 
+- For example, the gradient boosting regressor model can provide a feature importance chart, displaying how each feature contributes to the prediction of car prices.
+- This will allow buyers, car manufacturers and dealerships to understand how each feature impacts the price of the car and make informed decision.
+- For recommendations on how to improve, it is important to note that these models alone does not accurately solve the original problem of predicting car prices. 
+- To ensure that the model is consistent, we need to test the model on new set of data which is also known as "out of sample testing"
 
 ### What we have learnt from this project?
 - Using scikit learn OneHotEncoder to convert catrgorical variables into a more useable form
@@ -123,6 +127,7 @@ The presentation video can be found [here](TODO)
 - Decision Tree Classifier Model
 - K-Fold technique
 - Gradient Boosting Regressor Model
+- Justify which variable is best to predict car price
 
 ### References
 1. https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
