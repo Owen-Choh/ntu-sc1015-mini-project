@@ -38,7 +38,7 @@ The presentation video can be found [here](TODO)
 5. [Random Forest.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Random%20Forest.ipynb)
 6. [Decision Tree Classifier with K Fold.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Decision%20Tree%20Classifier%20with%20K%20Fold.ipynb)
 7. [Gradient Boosting Regressor.ipynb](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/Gradient%20Boosting%20Regressor.ipynb)
-8. [SC1015 Project Slides.pdf](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/SC1015%20Project%20Slides.pdf) - presentation slides for our project
+8. [SC1015 Project Slides.pdf](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/SC1015_Z136_Team%204%20Project%20Slides.pptx) - presentation slides for our project
 
 ### Notebook Descriptions
 #### Data Cleaning And Preparation
@@ -104,8 +104,8 @@ The presentation video can be found [here](TODO)
 
 *Machine Learning Comparisons*
 - Random Forest suggests that the Mileage, Year and Model variables are most useful in predicting car price
-- Decision Tree Classifier with K Fold is not recommended as a technique as most categorical variables are irrelevant in determining attrition
-- Gradient Boosting Regressor is highly useful in effectively predicting attrition
+- Decision Tree Classifier with K Fold is not recommended as a technique to predict car price
+- Gradient Boosting Regressor is highly accurate in effectively predicting car price
 - The random forest achieved an R-squared value of 0.719. The KFold achieved a lower R-squared value of 0.636. The gradient boosting regressor achieved the highest R-squared value of 0.918 which indicates the best performer among the three.
 
 *Data Driven Insights*
