@@ -103,7 +103,10 @@ For the cleaned dataset, please download it from [here](https://github.com/Owen-
 - Random Forest suggests that the Mileage, Year and Model variables are most useful in predicting car price
 - Decision Tree Classifier with K Fold is not recommended as a technique to predict car price
 - Gradient Boosting Regressor is highly accurate in effectively predicting car price
-- The random forest achieved an R-squared value of 0.719. The KFold achieved a lower R-squared value of 0.636. The gradient boosting regressor achieved the highest R-squared value of 0.918 which indicates the best performer among the three.
+- Results:
+   - Random Forest achieved an R-squared value of 0.719. 
+   - Decision Tree Classifier with K Fold achieved a lower R-squared value of 0.636. 
+   - Gradient Boosting Regressor achieved the highest R-squared value of 0.918 which indicates the best performer among the three.
 
 *Data Driven Insights*
 - Models can provide information on the impact of the car features on car prices. 
