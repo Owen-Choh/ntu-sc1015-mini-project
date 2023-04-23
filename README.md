@@ -23,7 +23,7 @@ The dataset used for this project is retrieved from [here](https://github.com/Ow
 For the cleaned dataset, please download it from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv)
 
 ## Presentation
-The presentation video can be found [here](TODO)
+The presentation slides can be found [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/SC1015_Z136_Team%204%20Project%20Slides.pptx)
 
 ### Members (Z136_Team 4)
 1. Chong Choy Jun - Decision Tree Classifier with K Fold, Gradient Boosting Regressor
