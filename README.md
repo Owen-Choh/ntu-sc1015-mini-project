@@ -1,6 +1,11 @@
 # SC1015 Mini-Project
 For our mini project in the Introduction to Data Science and Artificial Intelligence module (SC1015), we performed analysis on the Ford Car Price [dataset](https://www.kaggle.com/datasets/adhurimquku/ford-car-price-prediction) from Kaggle. 
 
+### Members (Z136_Team 4)
+1. Chong Choy Jun - Decision Tree Classifier with K Fold, Gradient Boosting Regressor
+2. Chew Di Heng - Data Cleaning And Preparation, Exploratory Data Analysis
+3. Choh Lit Han Owen - Random Forest with SMOTE
+
 # Car Price Prediction
 
 ## About
@@ -21,11 +26,6 @@ to improve sales performance
 The dataset used for this project is retrieved from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv)
 
 For the cleaned dataset, please download it from [here](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/cleaned_cardata.csv)
-
-### Members (Z136_Team 4)
-1. Chong Choy Jun - Decision Tree Classifier with K Fold, Gradient Boosting Regressor
-2. Chew Di Heng - Data Cleaning And Preparation, Exploratory Data Analysis
-3. Choh Lit Han Owen - Random Forest with SMOTE
 
 ### Files Included
 1. [ford.csv](https://github.com/Owen-Choh/ntu-sc1015-mini-project/blob/main/ford.csv) - original dataset
